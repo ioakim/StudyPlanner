@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Semester_1>
+	<Module mname = "Software Engineering" code = "cmp5012">
+			<Assignment id="1">
+                <name>Design Phase</name>
+				<weighting>30</weighting>
+				<start>22-01-2017</start>
+				<end>22-04-2017</end>
+				<Description>UEA is always looking for ways to support students in their studies and with 
+				many of the modules and assignments requiring detailed planning, priori sa on and tracking
+				of tasks the university wants to you to develop the “Study Planner” applica on. The goal 
+ 				of the Study Planner is to help students schedule tasks based on their module schedule and
+  				to de ne tasks and their dependencies for which they can then track their progress. 
+  				Ini ally this applica on will be o ered by the School of Compu ng Sciences but support 
+  				for other schools in the future should be considered.
+				</Description>
+            </Assignment>   
+			
+			<Assignment id="2">
+                <name>Implementation Phase</name>
+				<weighting>20</weighting>
+				<start>22-04-2017</start>
+				<end>22-06-2017</end>
+				<Description>Study the Study Planner (SP) requirements sheet posted on 
+				Blackboard and implement a prototype for the new SP application, based on 
+				the MoSCoW criteria detailed on the sheet. Notice that the requirements 
+				contain various clarifications and amendments to the general scenario that 
+				was the basis for the design stage. UEA representatives may revise or further 
+				clarify these requirements in response to questions. Any changes to the 
+				official requirements sheet will be announced by email
+				Write a documentation of the prototype you develop. This documentation 
+				should enable other developers to understand the prototype in order to 
+				deploy, configure, maintain and further develop it, and to evaluate its 
+				architecture. Your report should document the application logic, and all 
+				assumptions that it is based on. Use suitable UML diagrams to support your 
+				documentation.
+				</Description>
+            </Assignment>
+	</Module>
+	
+	<Module mname = "Programming" code = "cmp5015">
+			<Assignment id="1">
+				<name>Cheat Game in Java</name>
+				<weighting>30</weighting>
+				<start>22-02-2017</start>
+				<end>22-03-2017</end>
+				<Description>This coursework involves you designing and implementing a 
+				simulation of a card game called Cheat. You will first implement general 
+				classes that could be used in any card game, then implement players for 
+				Cheat that utilise different playing strategies. You should complete 
+				part 1 before attempting part 2.
+				</Description>
+			</Assignment>
+			
+			<Assignment id="2">
+				<name>OMDB</name>
+				<weighting>20</weighting>
+				<start>15-03-2017</start>
+				<end>22-04-2017</end>
+				<Description>The aim of this assignment is for the student to gain experience 
+				in the design and implementation of a simple application in the C programming 
+				language. This will involve use of most of the basic language constructs, 
+				such as types, expressions, selection, repetition, functions etc. 
+				(which are broadly similar to Java) but will also involve more advanced 
+				topics including the use of pointers and dynamic memory allo- cation 
+				(which are rather different) and the use of structs to write modular 
+				programs based on abstract data types (the forerunners of classes).
+				</Description>
+			</Assignment>
+	</Module>
+	
+	<Module mname = "Networks" code = "cmp5037">
+			<Assignment>
+				<name>VoIP</name>
+				<weighting>30</weighting>
+				<start>09-02-2017</start>
+				<end>24-03-2017</end>
+				<Description>The aim of this assignment is to design, implement and evaluate a VoIP 
+				communication system to operate between two PCs in the Lewin Lab. The assignment is 
+				to be tackled in pairs – typically with one person responsible for the sender and 
+				the other for the receiver. This brings in issues such as the standardisation of 
+				VoIP packets
+				</Description>
+			</Assignment>
+			
+			<Assignment>
+				<name>Monitoring Internet Performance</name>
+				<weighting>30</weighting>
+				<start>09-03-2017</start>
+				<end>11-05-2017</end>
+				<Description>In this assignment, you will perform a number of measurements over the 
+				‘real Internet’ using tools such as traceroute, ping, and wget (FTP). The first stage
+				of the assignment involves measuring routing stability, packet loss, round trip time (RTT),
+				and throughput over a period of a week. This is best achieved by running a crontab script on 
+				the cmp-14networks.cmp.uea.ac.uk server
+				</Description>
+			</Assignment>
+	</Module>
+	
+	<Module mname = "Data Structures" code = "cmp5014">
+			<Assignment>
+				<name>Hash Table</name>
+				<weighting> 35 </weighting>
+				<start> 01-02-2017</start>
+				<end> 15-04-2017</end>
+				<Description> Subject specific: To test your ability to design, analyse and implement algorithms.
+				Transferable skills:Describing algorithms using pseudo-code; use of mathematical notation when 
+				analysing algorithms;computer programming; use of drawing tools
+				</Description>
+			</Assignment>
+	</Module>
+</Semester_1>

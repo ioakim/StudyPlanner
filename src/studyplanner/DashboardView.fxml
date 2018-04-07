@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studyplanner.DashboardViewController">
+   <children>
+      <ScrollPane fx:id="parentPane" prefHeight="200.0" prefWidth="200.0">
+         <content>
+            <VBox fx:id="parentBox" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="449.0" prefWidth="238.0" />
+         </content></ScrollPane>
+   </children>
+</HBox>-->
+
+<AnchorPane id="AnchorPane" fx:id="dashboardAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studyplanner.DashboardViewController">
+   <children>
+      <TableView fx:id="approachingTable" layoutX="200.0" layoutY="23.0" prefHeight="112.0" prefWidth="274.0">
+         <columns>
+            <TableColumn fx:id="approachingAssignment" prefWidth="124.0" text="Assignment" />
+            <TableColumn fx:id="approachingDeadline" prefWidth="152.0" text="Deadline" />
+         </columns>
+      </TableView>
+      <TableView fx:id="passedTable" layoutX="200.0" layoutY="154.0" prefHeight="112.0" prefWidth="274.0">
+         <columns>
+            <TableColumn fx:id="passedAssignment" prefWidth="124.0" text="Assignment" />
+            <TableColumn fx:id="passedDeadline" prefWidth="152.0" text="Deadline" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

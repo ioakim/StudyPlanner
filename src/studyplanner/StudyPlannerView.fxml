@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="content" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studyplanner.StudyPlannerViewController">
+   <children>
+      <Button fx:id="loadProfileButton" layoutX="103.0" layoutY="355.0" mnemonicParsing="false" onAction="#loadProfileButtonAction" prefHeight="45.0" prefWidth="103.0" text="Load Profile">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="newProfileButton" layoutY="355.0" mnemonicParsing="false" onAction="#newProfileButtonAction" prefHeight="45.0" prefWidth="103.0" text="New Profile" textFill="#dd1b1b">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font></Button>
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#saveStudyProfile" text="Save" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="profileListView" layoutX="3.0" layoutY="25.0" prefHeight="327.0" prefWidth="594.0" />
+   </children>
+</AnchorPane>
